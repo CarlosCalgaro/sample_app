@@ -24,7 +24,7 @@ default: &default
   username: postgres
   host: localhost
   password: postgres
-  
+    
 development:
   <<: *default
   database: sample_app_development
